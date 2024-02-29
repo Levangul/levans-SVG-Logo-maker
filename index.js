@@ -25,7 +25,7 @@ const questions = [
   {
     type: "input",
     message: "Choose text color (Enter color keyword OR a hexadecimal number)",
-    name: "backgroundcolor",
+    name: "shapeColor",
   },
 ];
 
