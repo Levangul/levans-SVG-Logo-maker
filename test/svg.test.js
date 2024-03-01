@@ -10,7 +10,7 @@ describe("generateSVG", () => {
     xmlns="http://www.w3.org/2000/svg">
     <circle cx="150" cy="100" r="80" fill="${shapeColor}" />
     <text x="150" y="125" font-size="60" text-anchor="middle" fill="${textColor}">${text}</text>
-  </svg>`;
+    </svg>`;
     const svg = generateSVG({ shape, text, textColor, shapeColor });
 
     expect(svg).toEqual(templateTest);
