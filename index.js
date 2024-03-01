@@ -38,7 +38,7 @@ const createSVG = (fileName, data) => {
 
 
 const init = () => {
-  
+
   inquirer.prompt(questions).then((data) => {
     createSVG("logo.svg", data);
   });
