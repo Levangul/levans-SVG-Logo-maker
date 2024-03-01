@@ -8,6 +8,7 @@ const questions = [
     message:
       "What letters your logo would you like to contain? (up to three characters)",
     name: "text",
+    validate: (input) => input.length <= 3,
   },
 
   {
