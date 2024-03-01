@@ -1,10 +1,12 @@
 
-  # LevansREADMEGen
+  # Levans SVG Logo Maker 
 
   ## Description
-  This is high quality README based on user inputs with node, using command line
+
+  This is a simple logo maker which can be created by user input from command line... you can choose shape, color and add text to your logo. 
 
   ## Table of contents
+
   - [installation](#installation)
   - [usage](#usage)
   - [license](#license)
@@ -13,25 +15,25 @@
   - [questions](#questions)
 
   ## Installation
-  To install this app you will need to clone down repository and install inquirer from command line
+
+  To install this app you will need to clone down repository and install inquirer and jest from command line
 
   ## Usage
 
-  By entering node index.js in your command line
-
-  [Walkthrough](https://github.com/Levangul/LevansREADMEgen/assets/150108077/09b667a8-4abd-40a4-8ed2-60d3af82821a)
+  By entering node index.js in your command line.
   
   
   ## License
-    
-  This project is licensed under [Mit](https://opensource.org/blog/license/Mit) license. 
+ 
 
   ## Tests
 
-  Check installation and usage
+  You can find svg.test.js  file where tests are located, to run the test use `npm test` in your terminal
+
   ## Contribution
 
   N/A
+  gi
   ## Contact
 
   If you have any questions please contact me
