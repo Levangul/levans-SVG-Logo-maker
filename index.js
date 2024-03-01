@@ -30,18 +30,25 @@ const questions = [
   },
 ];
 
-const createSVG = (fileName, data) => {
-  const template = generateSVG(data);
-  fs.writeFile(fileName, template, (err) => {
-    err ? console.error(err) : console.log("Generated logo.svg");
-  });
-};
+function writeToFile(fileName, data) {
+  const template = generateSVG(data)
+  fs.writeFile(fileName, template, function (err) {
+    if (err) {
+      return console.error(err)
+  } else {
+      return console.log("generated logo.svg")
+  }
+
+  })
+
+}
 
 
-const init = () => {
 
-  inquirer.prompt(questions).then((data) => {
-    createSVG("logo.svg", data);
+function init() {
+  inquirer.prompt(questions)
+  .then(function(data) {
+    writeToFile("logo.svg", data);
   });
 };
 
