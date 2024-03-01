@@ -21,6 +21,8 @@
   ## Usage
 
   By entering node index.js in your command line.
+
+  [Untitled_ Feb 29, 2024 10_31 PM.webm](https://github.com/Levangul/levans-SVG-Logo-maker/assets/150108077/fca6929c-82af-46e2-a65a-4f1f7d2e6ceb)
   
   
   ## License
